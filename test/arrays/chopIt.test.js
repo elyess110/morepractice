@@ -3,7 +3,7 @@ var chopIt = require("../../arrays/chopIt.js");
 
 var expect = chai.expect;
 
-xdescribe("Array Exercise - chopIt", function() {
+describe("Array Exercise - chopIt", function() {
   it("should insert the two numbers into the array after the second index value and delete the third index value", function() {
     var arr = [31, 23, 54, 41, 78];
     var chopItArr = chopIt(arr, 64, 71);

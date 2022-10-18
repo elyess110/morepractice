@@ -4,6 +4,15 @@
 // Hint: Use the modulus operator
 
 var evenOdd;
-
+evenOdd = function (arr) {
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      arr.push("even");
+    } else {
+      arr.push("odd");
+    }
+  }
+  return arr;
+};
 // DO NOT DELETE
 module.exports = evenOdd;

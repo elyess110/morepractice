@@ -2,6 +2,10 @@
 // positions the number at the front of the array. Return the new array.
 
 var addFront;
+addFront= function (arr,num) {
+  arr.unshift(num);
+  return arr;
+};
 
 // DO NOT DELETE
 module.exports = addFront;

@@ -3,7 +3,7 @@ var evenOdd = require("../../arrays/evenOdd.js");
 
 var expect = chai.expect;
 
-xdescribe("Array Exercise - evenOdd()", function() {
+describe("Array Exercise - evenOdd()", function() {
   it("Should return an array where even numbers correspond to even and odd to odd", function() {
     var arr = [34, 21, 47, 56, 13];
     var evenOddArr = evenOdd(arr);
